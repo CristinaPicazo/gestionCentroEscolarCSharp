@@ -1,0 +1,14 @@
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\bin\Debug\Ejercicio6.exe.config
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\bin\Debug\Ejercicio6.exe
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\bin\Debug\Ejercicio6.pdb
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.csproj.AssemblyReference.cache
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.csproj.SuggestedBindingRedirects.cache
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.CursosFormulario.resources
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.Form1.resources
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.Properties.Resources.resources
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.csproj.GenerateResource.cache
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.csproj.CoreCompileInputs.cache
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.exe
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.pdb
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.AlumnosFormulario.resources
+C:\Users\derez\Desktop\DAW\Programación\Tema 7\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.ProfesoresFormulario.resources

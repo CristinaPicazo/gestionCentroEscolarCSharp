@@ -12,9 +12,36 @@ namespace Ejercicio6
     {
         private string nombre;
         private string dni;
-        private string teléfono;
+        private string telefono;
         private List<string> listaAsignaturas;
         private int codigoCurso;
+
+
+        //propiedades
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Dni { get => dni; set => dni = value; }
+        public string Telefono { get => telefono; set => telefono = value; }
+        public List<string> ListaAsignaturas { get => listaAsignaturas; set => listaAsignaturas = value; }
+        public int CodigoCurso { get => codigoCurso; set => codigoCurso = value; }
+
+        //constructor
+        public ProfesorClase()
+        {
+            nombre = "";
+            dni = "";
+            telefono = "";
+            listaAsignaturas = new List<string>();
+            codigoCurso = 0;
+
+        }
+        public ProfesorClase(string nombre, string dni, string telefono, List<string> listaAsignaturas, int codigoCurso)
+        {
+            this.nombre = nombre;
+            this.dni = dni;
+            this.telefono = telefono;
+            this.listaAsignaturas = new List<string>();
+            this.codigoCurso = codigoCurso;
+        }
 
     }
 }

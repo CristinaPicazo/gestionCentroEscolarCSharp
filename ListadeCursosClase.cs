@@ -8,6 +8,16 @@ namespace Ejercicio6
 {
     public class ListadeCursosClase
     {
-        public List<string> ListaCursos;
+        //public List<string> ListaCursos;
+
+        //public ListadeCursosClase(object curso)
+        //{
+        //    ListaCursos.Add(curso);
+        //}
     }
+    
+
+    
+
+    
 }

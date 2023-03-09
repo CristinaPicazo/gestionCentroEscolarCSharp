@@ -8,6 +8,6 @@ namespace Ejercicio6
 {
     public class ListadeAlumnosClase
     {
-        public List<string> listaAlumnos;
+        //public List<string> listaAlumnos;
     }
 }

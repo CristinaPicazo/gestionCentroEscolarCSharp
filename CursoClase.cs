@@ -11,7 +11,7 @@ namespace Ejercicio6
         private string nombre;
         private int codigo;
 
-
+        //Propiedades
         public string Nombre
         {
             get
@@ -35,5 +35,19 @@ namespace Ejercicio6
 
             }
         }
+
+
+        //constructor
+        public CursoClase()
+        {
+            codigo= 0;
+            nombre = "";
+        }
+        public CursoClase(int codigo, string nombre)
+        {
+            this.nombre = nombre;
+            this.codigo= codigo;    
+        }
+        
     }
 }

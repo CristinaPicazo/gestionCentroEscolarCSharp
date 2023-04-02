@@ -22,11 +22,15 @@ namespace Ejercicio6
         ListadeProfesoresClase listaProfesores = new ListadeProfesoresClase();
         ListadeAlumnosClase listaAlumnos = new ListadeAlumnosClase();
 
+        private List<string> listaAlumnosCurso = new List<string>();
+
+        public List<string> ListaAlumnosCurso { get => listaAlumnosCurso; set => listaAlumnosCurso =  value ; }
+
         //gestión cursos
         private void button1_Click(object sender, EventArgs e)
         {
             // Creamos el formulario pasándole la lista de cursos creada en este...
-            CursosFormulario cursosFormulario = new CursosFormulario(listaCursos);
+            CursosFormulario cursosFormulario = new CursosFormulario(listaCursos, listaAlumnos);
             // Aquí mostramos el formulario, que ya tendrá la lista de cursos.
             cursosFormulario.ShowDialog();
         }

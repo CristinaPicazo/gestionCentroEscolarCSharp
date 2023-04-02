@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio6
 {
-    internal class CursoClase
+    class CursoClase
     {
         private string nombre;
         private int codigo;
@@ -31,8 +32,10 @@ namespace Ejercicio6
             }
             set
             {
-                codigo = value;
-
+                if(codigo > 0)
+                {
+                    codigo = value;
+                }
             }
         }
 
@@ -40,14 +43,23 @@ namespace Ejercicio6
         //constructor
         public CursoClase()
         {
-            codigo= 0;
+            codigo = 0;
             nombre = "";
         }
         public CursoClase(int codigo, string nombre)
         {
+            this.codigo = codigo;
             this.nombre = nombre;
-            this.codigo= codigo;    
         }
-        
+
+        public string mostrarCurso()
+        {
+            string texto;
+
+            texto = "\n\tCodigo: " + Codigo + "\tNombre: " + Nombre;
+
+            return texto;
+        }
+
     }
 }
